@@ -1,3 +1,19 @@
+h1{
+    color: #003bad;
+}
+
 p{
     font-size: large;
+    
+    
+}
+
+.parallax{
+    background-image: url('https://dkrn4sk0rn31v.cloudfront.net/2019/04/14232157/capa-produtividade.png');
+    
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
