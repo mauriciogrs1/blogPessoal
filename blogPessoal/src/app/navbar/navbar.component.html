@@ -13,6 +13,23 @@
             <li class="nav-item">
               <a class="nav-link texto text-monospace text-uppercase font-weight-bold p-3 text-info" routerLink="/feed">Feed</a>
             </li>
+
+            <div *ngIf='auth.btnLogin()'>
+              <li class="nav-item">
+                <a class="nav-link texto text-monospace text-uppercase font-weight-bold p-3 text-info" routerLink="/login">Login</a>
+              </li>
+            </div>     
+            <div *ngIf='auth.btnLogin()'>     
+            <li class="nav-item">
+              <a class="nav-link texto text-monospace text-uppercase font-weight-bold p-3 text-info" routerLink="/cadastro">Cadastro</a>
+            </li>
+          </div>  
+
+          <div *ngIf='auth.btnSair()'>
+            <li class="nav-item">
+              <a class="nav-link texto text-monospace text-uppercase font-weight-bold p-3 text-info" (click)='sair()'>Sair</a>
+            </li>
+          </div>  
             
            
           </ul>
