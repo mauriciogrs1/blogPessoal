@@ -29,5 +29,5 @@ ul.social-network {
   color: #C13584;
   }
   .back{
-    background-color: #003bad;
+    background-image: linear-gradient(-90deg, rgb(3, 3, 3), rgb(58, 0, 105), rgb(80, 1, 44) );
   }

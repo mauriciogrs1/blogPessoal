@@ -1,5 +1,9 @@
 h1{
-    color: #003bad;
+    color: #ffffff;
+    animation: bounce;
+    animation-duration: 2s;
+    
+
 }
 
 p{
@@ -7,13 +11,36 @@ p{
     
     
 }
-
+@media screen and (max-device-width: 860px){
 .parallax{
-    background-image: url('https://dkrn4sk0rn31v.cloudfront.net/2019/04/14232157/capa-produtividade.png');
+    background-image: url("https://i.imgur.com/gOnJBDz.jpg");
     
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+}
+.bgcolor{
+    background-image: linear-gradient(-90deg, rgb(3, 3, 3), rgb(58, 0, 105), rgb(80, 1, 44) );
+}
+.imgtm{
+    width: 359px;
+    height: 224px;
+    object-fit: cover;
+}
+.imgc{
+    width: 492px;
+    height: 307px;
+    object-fit: cover;
+    object-fit: cover;
+}
+hr{
+    border-color: white;
+}
+.imgtm-p{
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
 }
