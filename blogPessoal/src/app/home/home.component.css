@@ -11,7 +11,7 @@ p{
     
     
 }
-@media screen and (max-device-width: 860px){
+
 .parallax{
     background-image: url("https://i.imgur.com/gOnJBDz.jpg");
     
@@ -21,7 +21,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
-}
+
 .bgcolor{
     background-image: linear-gradient(-90deg, rgb(3, 3, 3), rgb(58, 0, 105), rgb(80, 1, 44) );
 }
