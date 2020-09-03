@@ -41,6 +41,7 @@ export class FeedComponent implements OnInit {
   publicar() {
     this.tema.id = this.idTema
     this.postagem.tema = this.tema
+    console.log(this.postagem)
 
     if (this.postagem.titulo == null || this.postagem.texto == null || this.postagem.tema == null) {
       alert('Preenchimento obrigatório de todos os campos')
